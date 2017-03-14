@@ -2,28 +2,31 @@
 	font-family: 'Josefin Slab', serif;	
 }
 
-header, p {
-	font-size: 20px;
-}
-
 body {
 	background-color: #cedbe6;
+}
+
+/* Header */
+
+header,
+p {
+	font-size: 20px;
 }
 
 .logo {
 	margin-top: 20px;		
 }
-	
-.sepration {
-	border-width: 3px;
+
+@media screen and (max-width: 650px) {
+	.logo{
+		width: 75px;
+	}
 }
 
-@media screen and (min-width: 992px) {
-	html, body, .container {
-		width: 992px;
-		margin-right: auto;
-		margin-left: auto;
-	}
+/* Content */
+
+.sepration {
+	border-width: 3px;
 }
 
 @media screen and (min-width: 768px) {
@@ -32,8 +35,11 @@ body {
 	}
 }
 
-@media screen and (max-width: 650px) {
-	.logo{
-		width: 75px;
+@media screen and (min-width: 992px) {
+	html, body, .container {
+		width: 992px;
+		margin: auto;
+		
 	}
 }
+
