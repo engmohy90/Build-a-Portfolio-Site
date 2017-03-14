@@ -1,8 +1,5 @@
-* {
-	font-family: 'Josefin Slab', serif;	
-}
-
 body {
+	font-family: "Josefin Slab", serif;	
 	background-color: #cedbe6;
 }
 
@@ -36,7 +33,9 @@ p {
 }
 
 @media screen and (min-width: 992px) {
-	html, body, .container {
+	html,
+	body,
+	.container {
 		width: 992px;
 		margin: auto;
 		
